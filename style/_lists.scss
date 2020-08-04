@@ -1,0 +1,14 @@
+@mixin list {
+    list-style: none;
+}
+
+@mixin highlighted-list($color, $bg-color) {
+    background-color: $bg-color;
+    border: $color;
+    border-radius: 8px;
+    color: $color;
+
+    a {
+        color: $color;
+    }
+}

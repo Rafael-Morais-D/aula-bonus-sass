@@ -1,0 +1,28 @@
+@import 'style/variables';
+@import 'style/buttons';
+@import 'style/flex';
+@import 'style/lists';
+@import 'style/header';
+
+body {
+    background-color: $light;
+    
+    button {
+        @include btn;
+    }
+
+    ul{
+        &.highlight {
+            @include highlighted-list($darker, $lighter);
+        }
+    }
+
+    main { flex: 0 1 50%; }
+    aside { flex: 0 1 20%; }
+    
+    @each $theme-colors, $color in $theme-colors {
+        .#{$theme-colors} {
+            background-color: #{$color};
+        }
+    }
+}

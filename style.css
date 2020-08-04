@@ -1,0 +1,113 @@
+header {
+  background-color: #292929;
+  color: #bbb;
+}
+header a {
+  color: #bbb;
+}
+header a:hover {
+  color: #e0e0e0;
+}
+header ul,
+header ol {
+  list-style: none;
+}
+header ~ div {
+  flex-direction: row;
+  flex-wrap: "nowrap";
+  justify-content: center;
+  display: flex;
+}
+
+body {
+  background-color: #bbb;
+}
+body button {
+  border-radius: 60px;
+  display: block;
+  font-weight: bold;
+  margin: 20px auto;
+  padding: 20px 40px;
+}
+body button.btn-green {
+  background-color: #2ebd78;
+  border: 2px solid #fff;
+  color: #fff;
+}
+body button.btn-green:hover {
+  background-color: #fff;
+  border: 2px solid #2ebd78;
+  color: #2ebd78;
+}
+body button.btn-cyan {
+  background-color: #00bde7;
+  border: 2px solid #222;
+  color: #222;
+}
+body button.btn-cyan:hover {
+  background-color: #222;
+  border: 2px solid #00bde7;
+  color: #00bde7;
+}
+body button.btn-magenta {
+  background-color: #ff01f5;
+  border: 2px solid #fff;
+  color: #fff;
+}
+body button.btn-magenta:hover {
+  background-color: #fff;
+  border: 2px solid #ff01f5;
+  color: #ff01f5;
+}
+body button.btn-orange {
+  background-color: #e78b02;
+  border: 2px solid #222;
+  color: #222;
+}
+body button.btn-orange:hover {
+  background-color: #222;
+  border: 2px solid #e78b02;
+  color: #e78b02;
+}
+body button.btn-terra {
+  background-color: #cc5834;
+  border: 2px solid #fff;
+  color: #fff;
+}
+body button.btn-terra:hover {
+  background-color: #fff;
+  border: 2px solid #cc5834;
+  color: #cc5834;
+}
+body ul.highlight {
+  background-color: #e0e0e0;
+  border: #222;
+  border-radius: 8px;
+  color: #222;
+}
+body ul.highlight a {
+  color: #222;
+}
+body main {
+  flex: 0 1 50%;
+}
+body aside {
+  flex: 0 1 20%;
+}
+body .green {
+  background-color: #2ebd78;
+}
+body .cyan {
+  background-color: #00bde7;
+}
+body .magenta {
+  background-color: #ff01f5;
+}
+body .orange {
+  background-color: #e78b02;
+}
+body .terra {
+  background-color: #cc5834;
+}
+
+/*# sourceMappingURL=style.css.map */

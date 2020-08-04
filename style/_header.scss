@@ -1,0 +1,21 @@
+header {
+    background-color: $dark;
+    color: $light;
+
+    a {
+        color: $light;
+
+        &:hover {
+            color: $lighter;
+        }
+    }
+
+    ul,
+    ol {
+        @include list;
+    }
+
+    ~ div {
+        @include flex('row', 'nowrap', 'center');
+    }
+}
